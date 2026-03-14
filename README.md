@@ -90,14 +90,6 @@ To deploy manually:
 ```
 npm run build
 npm run deploy
-```
-
----
-
-## 📷 Screenshot
-
-(Add your project screenshot here)
-
 ---
 
 ## 👨‍💻 Author
