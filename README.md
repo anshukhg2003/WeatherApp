@@ -1,21 +1,114 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌦 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Weather Application** built using **React + Vite** that allows users to search for any city and view real-time weather information.
 
-Currently, two official plugins are available:
+The application fetches live weather data from a weather API and displays important details such as temperature, humidity, wind speed, and weather conditions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://anshukhg2003.github.io/WeatherApp/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# WeatherApp
-This is the weather application using the react js
->>>>>>> 5d91992c04e5598b16be8cd439e79e315d690f3b
+## 📌 Features
+
+* 🔎 Search weather by city name
+* 🌡 Display real-time temperature
+* ☁ Show weather conditions (clouds, rain, clear sky)
+* 💨 Display wind speed
+* 💧 Show humidity level
+* 📱 Fully responsive design
+* ⚡ Fast performance using Vite
+
+---
+
+## 🛠 Technologies Used
+
+* React
+* Vite
+* Axios
+* CSS
+* Weather API
+
+---
+
+## 📂 Project Structure
+
+```
+WeatherApp
+│
+├── public
+├── src
+│   ├── components
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── WeatherApp.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙ Installation and Setup
+
+Clone the repository
+
+```
+git clone https://github.com/anshukhg2003/WeatherApp.git
+```
+
+Navigate to the project folder
+
+```
+cd WeatherApp
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run the development server
+
+```
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+To deploy manually:
+
+```
+npm run build
+npm run deploy
+```
+
+---
+
+## 📷 Screenshot
+
+(Add your project screenshot here)
+
+---
+
+## 👨‍💻 Author
+
+Anshu Kumar
+
+GitHub:
+https://github.com/anshukhg2003
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a **star ⭐ on GitHub**.
